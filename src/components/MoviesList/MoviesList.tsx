@@ -2,7 +2,11 @@ import './MoviesList.scss';
 import { MovieCard } from '../MovieCard';
 
 interface Movie {
-  [key: string]: string;
+  title: string;
+  description: string;
+  imgUrl: string;
+  imdbUrl: string;
+  imdbId: string;
 }
 
 interface Props {
